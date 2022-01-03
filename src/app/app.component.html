@@ -1,0 +1,5 @@
+<form [formGroup]="ownerForm">
+  <p>input:</p>
+  <app-custom-input formControlName="stock"></app-custom-input>
+  Valid: {{ ownerForm.controls.stock.valid }}
+</form>
